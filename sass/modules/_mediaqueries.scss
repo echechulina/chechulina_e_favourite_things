@@ -1,0 +1,15 @@
+@media screen and (min-width: 64em){
+
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+  
+    }
+
+    .thing-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+}

@@ -3,53 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite things</title>
+    <title>Favourite things</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
     <main id="app">
-        <h1 class="hidden">My favorite things</h1>
-
+        <h1 class="header">My favorite things</h1>
+<div class="wrap">
         <div class="container">
 
-        <section class="lightbox">
+        <!-- <section class="lightbox">
             <span class="close-lb">x</span>
-        </section>
+        </section> -->
 
-        <!-- add a users section here -->
-        <section class="user-section">
-            <!-- <h1 class="hidden"></h1>
-            <h2 class="user-name"></h2>
-            <p class="user-nickname"></p>
-            <p class="user-role"></p> -->
+        <!-- add a thing section here -->
+        <section class="thing-section">
+            <h1 class="hidden"></h1>
+            <h2 class="thing-Title"></h2>
+            <p class="thing-Description"></p>
+          
         </section>
-        <!-- end users section -->
+        <!-- end thing section -->
   
 
     <!-- template files here (these don't render) -->
-        <template id="user-template">
-            <div class="user">
+        <template id="thing-template">
+            <section class="thing">
                 <h1 class="hidden"></h1>
+                <img src="" alt="thing image">
                 <!-- <h2 class="user-name"></h2>
                 <p class="user-nickname"></p>
                 <p class="user-role"></p> -->
-            </div>
+                </section>
         </template>
 
     <nav id="bottomNav">
     	<ul id="navList">
         	<!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
-            <li><div class="sigilContainer stark" data-offset="0"></div></li>
+            <!-- <li><div class="sigilContainer stark" data-offset="0"></div></li>
             <li><div class="sigilContainer baratheon" data-offset="1"></div></li>
             <li><div class="sigilContainer lannister" data-offset="2"></div></li>
             <li><div class="sigilContainer tully" data-offset="3"></div></li>
             <li><div class="sigilContainer greyjoy" data-offset="4"></div></li>
-            <li><div class="sigilContainer arryn" data-offset="5"></div></li>
+            <li><div class="sigilContainer arryn" data-offset="5"></div></li> -->
         </ul>
     </nav>
     </div>
+</div>
    </main>
+
+   <footer>
+    <section class="mainFooter">
+        <h2>© 2020 Elena Chechulina </h2>
+    </section> </footer> 
     <script type="module" src="js/main.js"></script>
-    <footer>Copyright © 2020 Elena Chechulina </footer> 
+    
 </body>
 </html>
