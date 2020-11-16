@@ -16,16 +16,15 @@ No special installation is required.
 Download the repo and open in a code editor. Content will require a Live Server to view properly.
 
 ## Contributing
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request :D
-History
-TODO: Write history
+Please check the assets folder. There is a road map.
 
-## Credits
-TODO: Write credits
+## Tools
+* HTML
+* CSS
+* SASS
+* JS
+* PHP
+* MySQL
 
 ## MIT License
 
