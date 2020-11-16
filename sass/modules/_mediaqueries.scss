@@ -1,0 +1,37 @@
+@media screen and (min-width: 64em){
+
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+        width: 80%;
+        height: 280px;
+  
+    }
+
+    .thing-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        margin-top: -20px;
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .lightbox {
+        padding: 0;
+        .lightPart {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .thingImg {
+            display: flex;
+            img {
+                max-width: 50%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

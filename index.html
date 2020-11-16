@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite things</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main id="app">
+        <h1 class="header">My favourite things</h1>
+        <p class="click">Click on images to know more information!</p>
+<div class="wrap">
+    <div class="container">
+
+        
+        <!-- add a thing section here -->
+        <section class="thing-section" >
+            <!-- <h1 class="hidden"></h1>
+            <h2 class="thing-title"></h2>
+            <p class="thing-description"></p> -->
+          
+        </section>
+        <!-- end thing section -->
+
+        <section class="lightbox">
+            <span class="close-lb">x</span>
+            <div class="lightPart">
+                <div class="thingImg"> <img class="lightImage" src="./images/painting.jpg" alt="favourite things"></div>
+                <div class="lbText">
+                    <h2 class="thingTitle">Title</h2>
+                    <p class="thingDescription">Description</p>
+                </div>
+            </div>
+        </section>
+  
+
+    <!-- template files here (these don't render) -->
+        <template id="thing-template">
+            <section class="thing">
+                <h1 class="hidden"></h1>
+                <img src="images/temp.jpg" alt="thing image">
+                <!-- <h2 class="user-name"></h2>
+                <p class="user-nickname"></p>
+                <p class="user-role"></p> -->
+                </section>
+        </template>
+
+
+    </div>
+</div>
+   </main>
+
+   <footer>
+    <section class="mainFooter">
+        <h2>© 2020 Elena Chechulina </h2>
+    </section> </footer> 
+    <script type="module" src="js/main.js"></script>
+    
+</body>
+</html>
