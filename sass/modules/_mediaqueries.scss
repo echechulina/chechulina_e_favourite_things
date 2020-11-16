@@ -3,13 +3,15 @@
     .container {
         display: grid;
         grid-template-rows: 1fr;
+        
   
     }
 
     .thing-section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
+        gap: 50px;
+        margin-top: -50px;
     }
 
 }
